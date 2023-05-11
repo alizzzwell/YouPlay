@@ -1,0 +1,75 @@
+/* Parallax */
+
+let intro = document.getElementById('intro');
+
+window.addEventListener('scroll',() => {
+    let  value = window.scrollY;
+   
+    intro.style.marginTop = value * -0.5 + 'px';
+    console.log(value)
+});
+
+let demo = document.getElementById('demo');
+
+window.addEventListener('scroll',() => {
+    let value = window.scrollY;
+
+    demo.style.marginTop = value * -0.5 + 'px';
+});
+
+let banner = document.getElementById('banner');
+
+window.addEventListener('scroll',() => {
+    let value = window.scrollY;
+
+    banner.style.marginTop = value * -0.5 + 'px';
+});
+
+
+/* Footer */
+
+#footer .skew  {
+    height: 100%;
+    top: 0%;
+    left: -30px;
+    right: -20px;
+    background: rgba(34, 26, 78, 0.3);
+    transform: skew(-6deg,0deg);
+    padding: 20px 20px;
+    transition: 0.6s;
+}
+#footer .skew:hover {
+    background: rgba(48, 37, 107, 0.9);
+}
+#footer a {
+    display: inline-block;
+    padding: 25px 43px;
+    color: white;
+    text-decoration: none;
+    transition: .3s color ease;
+}
+#footer i {
+    position: relative;
+    font-size: 5rem;
+    z-index: 1;
+    overflow: visible;
+    width: 0.875em;
+    display: inline-block;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+#footer span {
+    position: absolute;
+    display: block;
+    top: 100%;
+    right: 0;
+    left: 0;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+#footer .copyright {
+    position: relative;
+    padding: 30px 10px;
+    text-align: center;
+    background: rgba(8,3,37,.7);
+}
