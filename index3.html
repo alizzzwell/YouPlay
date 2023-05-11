@@ -46,7 +46,12 @@
     </header>
 
     <section id="intro">
-        <Div class="introcontainer">
+        <div class="image">
+            <div class="imagecontainer imageParallax">
+                <img src="images/banner-bg.jpg">
+            </div>
+        </div>
+        <Div class="introcontainer textParallax">
             <h2 class="textintro">
                 YOUPLAY - GAMING TEMPLATE
             </h2>
@@ -155,44 +160,46 @@
     <section id="banner">
 
         <div class="image">
-            <div class="imagecontainer">
+            <div class="imagecontainer imageParallax">
                 <img src="images/game-dark-souls-ii-1920x1080.jpg">
             </div>
         </div>
-        <h2 class="textbanner">
-            A BIT MORE FEATURES
-        </h2>
-        <section class="bannersec">
-            <div class="skew bannergroup">
-                <div class="skewbanner">
-                    <div class="clan">
-                        <h3>Clan Wars</h3>
-                        <div class="featpara">Manage battles in the games. Add teams and fights.</div>
+        <div class="container textParallax">
+            <h2 class="textbanner">
+                A BIT MORE FEATURES
+            </h2>
+            <div class="bannersec">
+                <div class="skew bannergroup">
+                    <div class="skewbanner">
+                        <div class="clan">
+                            <h3>Clan Wars</h3>
+                            <div class="featpara">Manage battles in the games. Add teams and fights.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skew bannergroup">
+                    <div class="skewbanner">
+                        <div class="soon">
+                            <h3>Coming Soon</h3>
+                            <div class="featpara">Use coming soon page with countdown before release feature or service.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skew bannergroup">
+                    <div class="skewbanner">
+                        <div class="form">
+                            <h3>AJAX Contact Form</h3>
+                            <div class="featpara">Everyone can contact you through user friendly ajax form.</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="skew bannergroup">
-                <div class="skewbanner">
-                    <div class="soon">
-                        <h3>Coming Soon</h3>
-                        <div class="featpara">Use coming soon page with countdown before release feature or service.</div>
-                    </div>
-                </div>
-            </div>
-            <div class="skew bannergroup">
-                <div class="skewbanner">
-                    <div class="form">
-                        <h3>AJAX Contact Form</h3>
-                        <div class="featpara">Everyone can contact you through user friendly ajax form.</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </section>
 
     <section id="question">
         <div class="row">
-            <div class="quescontainer">
+            <div class="quescontainer container">
                 <h2>
                     Have Any Questions?
                 </h2>
@@ -210,27 +217,29 @@
 
     <section id="purchase">
         <div class="image">
-            <div class="imagecontainer">
+            <div class="imagecontainer imageParallax">
                 <img src="images/game-bloodborne-1920x1151.jpg">
             </div>
         </div>
-        <h2 class="textpurchase">
-            PURCHASE TODAY FOR $23
-        </h2>
-        <p class="date">
-            If you interested in WordPress version, see it here -&nbsp;
-            <a href="https://1.envato.market/youplayhtmlinfo">https://themeforest.net/item/youplay-gaming-wordpress-theme/11959042</a>
-        </p>
-        <a href="#">
-            <button class="purchasebtn">
-                Purchase
-            </button>
-        </a>
+        <div class="container textParallax">
+            <h2 class="textpurchase">
+                PURCHASE TODAY FOR $23
+            </h2>
+            <p class="date">
+                If you interested in WordPress version, see it here -&nbsp;
+                <a href="https://1.envato.market/youplayhtmlinfo">https://themeforest.net/item/youplay-gaming-wordpress-theme/11959042</a>
+            </p>
+            <a href="#">
+                <button class="purchasebtn">
+                    Purchase
+                </button>
+            </a>
+        </div>
     </section>
 
     <section id="footer">
         <div class="image">
-            <div class="imagecontainer">
+            <div class="imagecontainer imageParallax">
                 <img src="images/footer-bg.jpg">
             </div>
         </div>
@@ -280,7 +289,8 @@
             </div>
         </div>
     </section>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.9/SmoothScroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
